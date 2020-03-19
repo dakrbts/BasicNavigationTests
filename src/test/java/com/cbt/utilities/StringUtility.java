@@ -11,5 +11,13 @@ public class StringUtility {
         }
     }
 
-
+    public static void verifyContains(String first, String second){
+        if(first.contains(second)){
+            System.out.println("PASS");
+        }else{
+            System.out.println("FAIL");
+            System.out.println("first = " + first);
+            System.out.println("second = " + second);
+        }
+    }
 }
